@@ -9,7 +9,7 @@
 
   @media screen and (max-width: 1492px) {
     .ex{
-        border:solid lightgrey; 
+        
         border-width:.2px;
         color:lightgrey;
         text-align:center;
@@ -19,7 +19,7 @@
   }
   @media screen and (max-width: 1292px) {
     .ex{
-        border:solid lightgrey; 
+        
         border-width:.2px;
         color:lemonchiffon;
         text-align:center;
@@ -29,7 +29,7 @@
   }
   @media screen and (max-width: 892px) {
     .ex{
-        border:solid lightgrey; 
+        
         border-width:.2px;
         color:lightblue;
         text-align:center;
@@ -45,25 +45,30 @@
 .waistTrainer{
    border:solid lightblue;
    border-width:.2px;
-   height:6vh;
-   margin:2em;
+   height:auto;
+   /* margin:2em; */
    color:lightblue;
-   padding:4px;
    display:flex;
    justify-content: space-evenly;
 }
 .chest,.gut,.thighs{
-   /* border:solid lightgrey; */
+   border:solid lightgrey;
+   padding:4px;
+   font-size:12px;
    border-width:.2px;
    text-align:center;
-   width:30%;
+   width:33%;
 }
 .chest:hover,.gut:hover,.thighs:hover{
    border:solid lightgrey;
+   padding:4px;
+   font-size:12px;
    border-width:.2px;
    text-align:center;
-   width:30%;
-   box-shadow: 3px 8px 55px 26px rgba(90,215,166,0.75);
--webkit-box-shadow: 3px 8px 55px 26px rgba(90,215,166,0.75);
--moz-box-shadow: 3px 8px 55px 26px rgba(90,215,166,0.75);
+   width:33%;
+  
+}
+.token{
+   width:auto;
+   height:60px;
 }
