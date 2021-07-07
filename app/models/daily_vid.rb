@@ -1,0 +1,2 @@
+class DailyVid < ApplicationRecord
+end

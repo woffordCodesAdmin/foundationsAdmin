@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @daily_vid.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @daily_vid.description %>
+</p>
+
+<p>
+  <strong>Frame url:</strong>
+  <%= @daily_vid.frame_url %>
+</p>
+
+<%= link_to 'Edit', edit_daily_vid_path(@daily_vid) %> |
+<%= link_to 'Back', daily_vids_path %>

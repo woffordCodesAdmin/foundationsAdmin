@@ -1,0 +1,38 @@
+@keyframes mottoCrawl {
+    from {margin-right: -110vw;}
+    to {margin-right: 
+        0vw;}
+  }
+
+  @media screen and (max-width: 1492px) {
+    .ex{
+        border:solid lightgrey; 
+        border-width:.2px;
+        color:lightgrey;
+        text-align:center;
+        animation: mottoCrawl 9s infinite ;
+     
+     }
+  }
+  @media screen and (max-width: 1292px) {
+    .ex{
+        border:solid lightgrey; 
+        border-width:.2px;
+        color:lemonchiffon;
+        text-align:center;
+        animation: mottoCrawl 9s infinite ;
+     
+     }
+  }
+  @media screen and (max-width: 892px) {
+    .ex{
+        border:solid lightgrey; 
+        border-width:.2px;
+        color:lightblue;
+        text-align:center;
+        animation: mottoCrawl 9s infinite ;
+     
+     }
+  }
+
+
