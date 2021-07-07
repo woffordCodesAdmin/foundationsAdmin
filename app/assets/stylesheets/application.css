@@ -31,7 +31,7 @@
     .ex{
         
         border-width:.2px;
-        color:lightblue;
+        color:lightgrey;
         text-align:center;
         animation: mottoCrawl 9s infinite ;
      
@@ -43,11 +43,11 @@
 }
 
 .waistTrainer{
-   border:solid lightblue;
+   border:solid lightgray;
    border-width:.2px;
    height:auto;
    /* margin:2em; */
-   color:lightblue;
+   color:lightgray;
    display:flex;
    justify-content: space-evenly;
 }
@@ -73,4 +73,31 @@
 .token{
    width:auto;
    height:60px;
+}
+.dailyContainer{
+   /* border:solid lightgrey; */
+   margin:1em;
+}
+.screen{
+   border:solid peru;
+   margin:12px;
+   height:35vh;
+   background-image:url('https://www.accenture.com/t00010101T000000Z__w__/gb-en/_acnmedia/Accenture/gb-en/images/Accenture-Responsible-AI-Robotics-Details-2.pngla=en-GB');
+   background-size:cover;border-width:.2px;
+}
+.dailyBtnHolster{
+   /* border:solid yellow; */
+   display:flex;
+   justify-content: space-evenly;
+   border-radius:22px;
+   padding:2px;
+}
+.dbtn{
+   border:solid peru;
+   border-width:.2px;
+   border-radius:22px;
+   margin-top:8px;
+   color:lightgrey;
+   width:22%;
+   text-align:center;
 }
