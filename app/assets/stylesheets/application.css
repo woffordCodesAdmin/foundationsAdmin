@@ -80,10 +80,11 @@
 }
 .screen{
    border:solid peru;
+   border-width:.2px;
    margin:12px;
-   height:35vh;
-   background-image:url('https://www.accenture.com/t00010101T000000Z__w__/gb-en/_acnmedia/Accenture/gb-en/images/Accenture-Responsible-AI-Robotics-Details-2.pngla=en-GB');
-   background-size:cover;border-width:.2px;
+   height:auto;
+   background-image:url('https://images.unsplash.com/photo-1580706483913-b6ea7db483a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxjb21wdXRlciUyMGNoaXBzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60');
+   background-size:cover;
 }
 .dailyBtnHolster{
    /* border:solid yellow; */
@@ -100,4 +101,13 @@
    color:lightgrey;
    width:22%;
    text-align:center;
+}
+.modal-header,.modal-body,.modal-footer{
+   background-color:#333C3F;
+   color:white;
+   text-align:center;
+   
+}
+.npts{
+   padding:2em;
 }
