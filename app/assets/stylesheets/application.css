@@ -1,7 +1,10 @@
 @keyframes mottoCrawl {
-    from {margin-right: -110vw;}
-    to {margin-right: 
-        0vw;}
+   0%{
+      margin-left:-110vh;
+   }
+   100%{
+      margin-left:20vh;
+   }
   }
 
   @media screen and (max-width: 1492px) {
@@ -34,5 +37,9 @@
      
      }
   }
+
+.topImg{
+   width:100%;
+}
 
 
