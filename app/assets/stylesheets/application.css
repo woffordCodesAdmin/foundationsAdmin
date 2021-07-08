@@ -1,9 +1,9 @@
 @keyframes mottoCrawl {
    0%{
-      margin-left:-110vh;
+      margin-right:-99vh;
    }
    100%{
-      margin-left:20vh;
+      margin-right:10vh;
    }
   }
 
@@ -79,7 +79,7 @@
    margin:1em;
 }
 .screen{
-   border:solid peru;
+   border:solid lightgrey;
    border-width:.2px;
    margin:12px;
    height:auto;
@@ -94,7 +94,7 @@
    padding:2px;
 }
 .dbtn{
-   border:solid peru;
+   border:solid lightgrey;
    border-width:.2px;
    border-radius:22px;
    margin-top:8px;
