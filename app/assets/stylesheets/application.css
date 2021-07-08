@@ -111,3 +111,10 @@
 .npts{
    padding:2em;
 }
+.commentContainer{
+   border:solid lightgray;
+   border-width:.2px;
+   height:33vh;
+   margin:1em;
+   padding:1em;
+}
