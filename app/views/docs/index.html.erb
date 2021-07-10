@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="">
   </head>
-  <body style="background-color:#212629;font-family:serif;height:250vh;">
+  <body style="background-color:#212629;font-family:serif;height:250vh;color:white;">
 
 
 
@@ -52,14 +52,79 @@
       </div>
     </nav>
    <%# NavBAr== %>
-    <img style="width:100%;"src="https://images.unsplash.com/photo-1573164713347-df1f7d6aeb03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">
-    <div class="commentContainer"></div>
+  
+<img style="width:100%;"src="https://images.unsplash.com/photo-1515847049296-a281d6401047?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+<!-- Goal Tracker -->
+<div class="goalContainer">
+  <div class="lifegl">Life
+    <hr>
+
+  
+  </div>
+
+  <div class="fivegl">5 year
+    <hr>
+
     
+  </div>
 
-<div style="color:peru;font-size:18px;text-align:center;"><span style="color:white;">Topic:</span>Can the Police Force be Replaced By AI Response Systems?</div>
-    <input style="margin:8px;width:75%;"type="text" placeholder="Enter Comment">
+  <div class="tengl">10 year
+    <hr>
 
-    <button>Submit</button>
+  </div>
+  <button class="adder" onclick="addGoal()"> +Add Goal+ </button>
+
+</div>
+
+
+
+<!-- Influencers -->
+<div class="idolContainer">
+  <h3>Influencers</h3>
+  <% @idols.each do |idol| %>
+    <div class="heroContainer">
+      <div class="topBox">
+        <div class="nameBox"><%= idol.name %></div>
+        <div class="desc"><%= idol.description %></div>
+      </div>
+
+      <div class="midBox">
+        <div class="vidBox"><%= idol.video %></div>
+        <div class="picBox"><%= idol.photo %></div>
+      </div>
+    </div>
+      
+       
+
+    <% end %>
+</div>
+<button class="adder" onclick="addGoal()"> Add Icon </button>
+
+<!-- Study Guide -->
+<div class="studyContainer">
+
+
+</div>
+<button class="adder" onclick="addGoal()"> Add Notes </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -69,7 +134,11 @@
     <script >
       console.log("Connected.",$)
 
+      const addGoal= ()=>{
+        prompt("What Type of Goal ? [L]ife  [5]year [10]year")
+      }
 
     </script>
   </body>
 </html>
+
