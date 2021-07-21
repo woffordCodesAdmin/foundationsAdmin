@@ -119,12 +119,12 @@
    padding:1em;
 }
 .goalContainer{
-   /* border:solid purple; */
    height:42vh;
-   /* display:flex; */
+   display:flex;
    justify-content: space-between;
 }
 .studyContainer{
+   margin:22px;
    border:solid red;
    height:42vh;
    margin-top:32px;
@@ -133,8 +133,10 @@
 }
 .idolContainer{
    text-align:center;
-   border:solid yellow;
-   height:42vh;
+   padding:1em;
+   /* display:flex; */
+   /* flex-wrap:wrap; */
+   height:auto;
    border-width:.2px;
 
 }
@@ -143,11 +145,23 @@
    border:solid white;
    text-align:center;
    border-width:.2px;
-   width:auto;
+   width:35%;
    margin:2vh;
+
 }
 .adder{
    width:100%;
    text-align:center;
    border-radius:22px;
+}
+.kdot{
+   border:solid blue;
+   background-color:lemonchiffon;
+   color:black;
+   margin:6px;
+   border-radius:22px;
+   border-width:.2px;
+}
+.heroContainer{
+   font-size:19px;
 }
